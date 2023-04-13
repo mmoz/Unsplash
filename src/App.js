@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Navbar from './Components/Navbar';
 
 function App() {
-  const apiKey = '-defKi-C4D7vPFJb3LymYfzZUd04mRUN6vuGQKrtPy8';
+  const apiKey = '';
 
   const [photos, setPhotos] = useState([]);
   const [page, setPage] = useState(1);
